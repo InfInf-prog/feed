@@ -74,7 +74,7 @@ border: 3px solid #6CBCC3;
 box-sizing: border-box;
 /*border-radius: 5%;*/
 margin-bottom: 12%;
-padding-bottom: 2%;
+padding-bottom: 4%;
 }
 
 #pic {
@@ -95,6 +95,7 @@ padding-bottom: 2%;
 }
 
 #textarea {
+    margin-top: 2%;
     padding-top: 15%;
     margin-left: 5%;
     position: relative;
@@ -114,7 +115,6 @@ width: 30%;
 height: 10%;
 left: 0px;
 top: 15%;
-
 background-color: #D7D7D7;
 border: 1px solid rgba(0, 0, 0, 0.25);
 box-sizing: border-box;
