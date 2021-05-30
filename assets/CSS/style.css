@@ -4,7 +4,6 @@
     width: 60%;
     height: 100%;
     top: 0px;
-
 }
 .ceilingBlock {
     background: #D7D7D7;
@@ -77,6 +76,7 @@ border-radius: 40px;
 }
 
 #pic {
+    margin-top: 1%;
     margin-left: 2%;
     width: 25%;
     height: 20%;
@@ -92,10 +92,11 @@ border-radius: 40px;
 }
 
 #textarea {
+    margin-left: 2%;
     margin-top: 10%;
     border: 1px solid #888;
     resize: none;
-    width: 250%;
+    width: 50vh;
     height: 10vh;
 }
 
