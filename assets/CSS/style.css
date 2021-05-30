@@ -9,7 +9,7 @@
     background: #D7D7D7;
     position: absolute;
     width: 100%;
-    height: 15%;
+    height: 15vh;
     top: 0px;
 }
 
@@ -61,43 +61,48 @@
 #example {
 /*position: absolute;*/
 width: 85%;
-margin:auto;
+height: auto;
+margin: auto;
 display: flex;
 /*align-items: center;*/
 /*justify-content: center;*/
 /*height: 231px;
 left: 289px;
 top: 207px;*/
-
 background: #FFFFFF;
 border: 3px solid #6CBCC3;
 box-sizing: border-box;
 /*border-radius: 5%;*/
-margin-bottom: 20%;
+margin-bottom: 12%;
 }
 
 #pic {
     margin-top: 1%;
-    margin-left: 2%;
-    width: 25%;
-    height: 20%;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
     background: #C4C4C4;
     border-radius: 15%;
 }
 
 #inf {
-    margin-left: 2%;
+    margin-left: 5%;
+    height: auto;
     font-weight: bold;
     font-size: 15px;
     font-family: Roboto;
 }
 
 #textarea {
-    margin-left: 2%;
-    margin-top: 10%;
+    padding-top: 15%;
+    margin-left: 10%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 10%;*/
     border: 1px solid #888;
     resize: none;
-    width: 100%;
+    width: 90%;
     height: 10vh;
 }
 
