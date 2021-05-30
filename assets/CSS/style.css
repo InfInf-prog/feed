@@ -9,7 +9,7 @@
     background: #D7D7D7;
     position: absolute;
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     top: 0px;
 }
 
@@ -74,6 +74,7 @@ border: 3px solid #6CBCC3;
 box-sizing: border-box;
 /*border-radius: 5%;*/
 margin-bottom: 12%;
+padding-bottom: 2%;
 }
 
 #pic {
@@ -95,7 +96,7 @@ margin-bottom: 12%;
 
 #textarea {
     padding-top: 15%;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -104,6 +105,7 @@ margin-bottom: 12%;
     resize: none;
     width: 90%;
     height: 10vh;
+    border-radius: 5px;
 }
 
 /*#menu {
