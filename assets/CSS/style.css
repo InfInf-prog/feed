@@ -143,3 +143,15 @@ body {
     justify-content: center;
 /*    overflow: hidden;*/
 }
+
+#leaveComment {
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #4EC5D6;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Roboto;
+    /*border-radius: 40%;*/
+    margin-left: 5%;
+}
