@@ -23,6 +23,7 @@
 }
 
 .ceilingBlock p button {
+    cursor: pointer;
     padding: 1%;
     background-color: #4EC5D6;
     color: white;
@@ -146,6 +147,7 @@ body {
 }
 
 #leaveComment {
+    cursor: pointer;
     margin-top: 2%;
     padding: 1%;
     background-color: #4EC5D6;
@@ -153,6 +155,37 @@ body {
     font-size: 10px;
     font-weight: bold;
     font-family: Roboto;
-    /*border-radius: 40%;*/
     margin-left: 25%;
+}
+
+#acc {
+    border-width: 0px;
+    background-color: white;
+}
+
+#acc {
+cursor: pointer;
+text-decoration:none; 
+display: inline-block; 
+line-height: 1;
+font-size: 18px;
+color:#2F73B6;
+}
+
+#acc:after {
+display: block; 
+content: "";
+height: 3px; 
+width: 0%; 
+background-color: #225384;
+transition: width 0.4s ease-in-out;
+}
+
+#acc:hover:after,
+#acc:focus:after {
+width: 100%;
+}
+
+#acc:hover{
+color:#225384;
 }
