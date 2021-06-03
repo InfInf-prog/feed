@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <meta charset="UTF-8">
-        <meta name="author" content="PAMIteam">
-        <meta name="keywords" content="вход, приложение">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Вход в приложение PAMI</title>
-        <link rel="stylesheet" href="assets\CSS\style.css">
-    </head>
-   <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="PAMIteam">
+    <meta name="keywords" content="вход, приложение">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лента товаров PAMI</title>
+    <link rel="stylesheet" href="assets\CSS\style.css">
+    <script language="javascript" type="text/javascript">
+        function addtext() {
+            var newtext = document.myform.inputtext.value;
+            var i = 0;
+            if (document.myform) {
+                i++;
+                document.myformm.outputtext.value = "Отзыв #" + i + "\nUsername: ";
+            }
+            document.myformm.outputtext.value += newtext;
+        }
+    </script>
+</head>
+<body>
     <!-- <div id="menu">
         <button id="account" type="submit" href="#">
             Аккаунт
@@ -24,48 +35,44 @@
                         <span> Поиск </span>
                     </button>
                 </p>
-                <button id="acc">← Перейти к аккаунту</button>
+                <button id="acc">⏴Перейти к аккаунту</button>
             </div>
             <h3>Лента товаров</h3>
-            <div id="example">
-                <div>
-                    <div id="pic">
-                        *pic*
+            <div id = "product">
+                <div id="example">
+                    <div>
+                        <div id="pic">
+                            *pic*
+                        </div>
+                        <div id="inf">
+                            <br> Название:***************</br>
+                            <span> Цена:******************* </span>
+                        </div>
+                        <!-- <button id="leaveComment" type="submit" href="#">
+                            <span> Оставить отзыв </span>
+                        </button> -->
                     </div>
-                    <div id="inf">
-                        <br> Название:***************</br>
-                        <span> Цена:******************* </span>
-                    </div>
-                    <button id="leaveComment" type="submit" href="#">
-                        <span> Оставить отзыв </span>
-                    </button>
+                    <!-- <textarea id = "textarea" disabled="disabled">
+                        * Отзывы *
+                    </textarea> -->
+                    <form id = "textareaform" name="myformm">
+                  <!--   <textarea id = "textarea" disabled="disabled" name="outputtextt">  -->
+                     <td><textarea id = "textarea" name="outputtext" disabled="disabled"></textarea></td>
+                    </textarea>
+                    </form>
                 </div>
-                <!-- <textarea id = "textarea" disabled="disabled">
-                    * Отзывы *
-                </textarea> -->
-                <textarea id = "textarea" disabled="disabled"> 
-    Отзыв 1
-    Пользователь: username Имя: Имя и фамилия
-    Хороший товар! Всем своим друзьям советую... И за такую цену...
-
-    Отзыв 2
-    Пользователь: username Имя: Имя и фамилия
-    Хороший товар! Всем своим друзьям советую... И за такую цену...
-
-    Отзыв 3
-    Пользователь: username Имя: Имя и фамилия
-    Хороший товар! Всем своим друзьям советую... И за такую цену...
-
-    Отзыв 4
-    Пользователь: username Имя: Имя и фамилия
-    Хороший товар! Всем своим друзьям советую... И за такую цену...
-
-    Отзыв 5
-    Пользователь: username Имя: Имя и фамилия
-    Хороший товар! Всем своим друзьям советую... И за такую цену...
-                </textarea>
+                <div>
+                    <form name="myform" id="myform">
+                    <textarea name="inputtext" id="inputarea"></textarea>
+                    <div>
+                    </div>
+                    </form>
+                    <div id = "leavecomment">
+                    <input type="submit" id="leavecommentbutton" value="Оставить отзыв" onClick="addtext();">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
+
