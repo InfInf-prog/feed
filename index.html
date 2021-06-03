@@ -1,3 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="PAMIteam">
+    <meta name="keywords" content="вход, приложение">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лента товаров PAMI</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script language="javascript" type="text/javascript">
+        function addtext() {
+            var i = 0;
+            var newtext = document.myform.inputtext.value;
+            if (i == 0) {
+                if (document.myform) {
+                    i++;
+                    document.myformm.outputtext.value = "Отзывы на товар:\n" + "\nОтзыв #" + i + "\nUsername: kotic1996 (Владимир Рассадин)\n";
+                }
+                document.myformm.outputtext.value += newtext;
+            }
+        }
+    </script>
+</head>
 <body>
     <!-- <div id="menu">
         <button id="account" type="submit" href="#">
@@ -47,7 +70,7 @@
                 </div>
                 <div>
                     <div id="textleaveyours">
-                        <br>Оставить свой отзыв о товаре здесь  :</br>
+                        <br>Оставьте свой отзыв о товаре здесь  :</br>
                     </div>
                     <form name="myform" id="myform">
                     <textarea name="inputtext" id="inputarea"></textarea>
@@ -59,3 +82,5 @@
             </div>
         </div>
 </body>
+</html>
+
