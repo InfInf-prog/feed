@@ -36,7 +36,7 @@
 
 .block h3 {
     position: relative;
-    padding-top: 24%;
+    padding-top: 20%;
     text-align: center;
     font-size: 35px;
     font-weight: normal;
@@ -122,7 +122,7 @@ padding-bottom: 5%;
     /*margin-top: 10%;*/
     border: 1px solid #888;
     resize: none;
-    width: 99%;
+    width: 95%;
     height: 12vh;
     padding-bottom: 10%;
     /*padding-bottom: 10%;*/
@@ -142,6 +142,7 @@ padding-bottom: 5%;
     width: 84%;
     resize: none;
     padding-bottom: 2%;
+    border: 3px solid #6CBCC3;
 }
 
 #leavecomment {
@@ -208,6 +209,9 @@ padding-bottom: 5%;
   opacity: 1;
   animation: animate 8s linear infinite;
 }
+#leavecommentbutton {
+    margin-top: 1%;
+}
 
 /*#menu {
 position: absolute;
@@ -256,9 +260,14 @@ body {
     margin-left: 25%;
 }
 
+#backToAcc {
+    margin-top: 8%;
+}
+
 #acc {
     border-width: 0px;
-    background-color: white;
+    /*background: white;
+    color: white;*/
 }
 
 #acc {
@@ -266,7 +275,6 @@ cursor: pointer;
 text-decoration:none; 
 display: inline-block; 
 line-height: 1;
-font-size: 18px;
 color:#2F73B6;
 }
 
